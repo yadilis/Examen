@@ -1,0 +1,40 @@
+
+.contenedor-principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    height: 300px;
+}
+
+.caja {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.caja-1 {
+    background-color: rgb(228, 157, 228);
+    padding: 20px;
+    text-align: center;
+    grid-area: 2/3/3/3;
+}
+
+.caja-2{
+    background-color: blueviolet;
+    grid-area: 3/3/2/2;}
+
+    .caja-3{
+        background-color: rgb(141, 51, 101);
+        grid-area: 3/3 /3;
+    }
+
+    .contenedor-iconos {
+        display: flex;
+        align-items: center;
+    }
+    .icono {
+        font-size: 2rem; 
+        margin-right: 10px; 
+    }
